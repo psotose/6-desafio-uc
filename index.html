@@ -5,8 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poke Api</title>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <!-- Tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+  <main id="pokemon-container">
+    <h1 class="pokemon-name">Pokemones</h1>    
+  </main>
+  <article id="template-card-desk">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg card">
+      <img class="w-full card__img" src="https://v1.tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains"/>
+      <div class="px-6 py-4 bg-white">
+        <p class="font-bold text-xl mb-2 bg-white card__name"></p>
+      </div>
+    </div>
+  </article>
+
   <script src="/assets/js/script.js"></script>
 </body>
 </html>

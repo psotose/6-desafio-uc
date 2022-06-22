@@ -1,0 +1,14 @@
+* {
+  background-color: cadetblue;
+}
+
+.pokemon-name {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.pokemon-desk {
+  width: 90%;
+  margin: 3rem;
+}
