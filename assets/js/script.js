@@ -37,6 +37,7 @@ const pokemonCard = document.addEventListener('DOMContentLoaded', getPokemonsNam
 
   for(let i = 0; i < pokemons.length; i++) {
     const clone = template.cloneNode(true);
+    clone.style.visibility = 'visible'
     clone.getElementsByTagName('img')[0].setAttribute("src", pokemons[i].img);
     clone.getElementsByClassName('card__name')[0].innerHTML = pokemons[i].name;
     const fragment = document.createDocumentFragment();
