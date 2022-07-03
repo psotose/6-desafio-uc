@@ -1,9 +1,6 @@
-* {
-  background-color: lemonchiffon;
-}
 
 .pokemon-name {
-  font-size: 3rem;
+  font-size: 12rem;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
 }
@@ -18,7 +15,6 @@
 }
 
 .card__name {
-  font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
 }
